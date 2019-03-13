@@ -6,6 +6,14 @@ Contributed by [Zhining Liu](https://scholar.google.com/citations?user=Kk0-z5IAA
 ## Papers
 
 [//]: #2019
+- **Revisiting Spatial-Temporal Similarity: A Deep Learning Framework for Traffic Prediction.**
+  *Huaxiu Yao, Xianfeng Tang, Hua Wei, Guanjie Zheng, Zhenhui Li.* AAAI 2019. [[Paper]](https://arxiv.org/abs/1803.01254)[[Code]](https://github.com/tangxianfeng/STDN)
+  - Summary: two intriguing assumptions are proposed: (1) the spatial dependencies between locations are also evolving w.r.t the time; (2) the temporal dependency is not strictly periodic due to its dynamic temporal shifting, and the gating mechanism and attention mechanism are introduced to solve the aforementioned problems.
+
+- **Attention Based Spatial-Temporal Graph Convolutional Networks for Traffic Flow Forecasting.**
+  *Shengnan Guo, Youfang Lin, Ning Feng, Chao Song, Huaiyu Wan.* AAAI 2019. [[Paper]](https://github.com/Davidham3/ASTGCN/blob/master/2019%20AAAI_Attention%20Based%20Spatial-Temporal%20Graph%20Convolutional%20Networks%20for%20Traffic%20Flow%20Forecasting.pdf)[[Code]](https://github.com/Davidham3/ASTGCN)
+  - Summary: graph convolutions along the spatial dimension and a standard convolution along the temporal dimension with spatial-temporal attention and different period components as inputs.
+
 - **Gated Residual Recurrent Graph Neural Networks for Traffic Prediction.**
  *Chen Cen, Li Kenli, Teo Sin, Zou Xiaofeng, Wang Jie, Zeng Zeng.* AAAI 2019. [[Paper]](https://oar.a-star.edu.sg/jspui/handle/123456789/3020)
   - Summary: diffusion convolutional with different scales of inputs.
@@ -48,7 +56,7 @@ Contributed by [Zhining Liu](https://scholar.google.com/citations?user=Kk0-z5IAA
 [//]: #2016
 - **Structured Sequence Modeling with Graph Convolutional Recurrent Networks.**
   *Youngjoo Seo, Michaël Defferrard, Pierre Vandergheynst, Xavier Bresson.* Arxiv 2016. [[Paper]](https://arxiv.org/abs/1612.07659)
-  - Summary: two methods to combine RNN with CNN: (1) graph signals firstly are processed by GCN and then use RNN to extract temporal dynamics; (2) replace the $W\times x$ in the RNN with the graph convolution $W*_Gx$.
+  - Summary: two methods to combine RNN with CNN: (1) graph signals firstly are processed by GCN and then use RNN to extract temporal dynamics; (2) replace the dense layer (W·x) in the RNN with the graph convolution (W_g*x).
 
 - **Scalable Link Prediction in Dynamic Networks via Non-Negative Matrix Factorization.**
   *Linhong Zhu, Dong Guo, Junming Yin, Greg Ver Steeg, Aram Galstyan.* TKDE 2016. [[Paper]](https://arxiv.org/abs/1411.3675)[[Code]](https://github.com/linhongseba/Temporal-Network-Embedding)
