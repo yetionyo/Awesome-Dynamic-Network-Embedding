@@ -6,6 +6,10 @@ Contributed by [Zhining Liu](https://scholar.google.com/citations?user=Kk0-z5IAA
 ## Papers
 
 [//]: #2019
+- **Predicting Citywide Crowd Flows in Irregular Regions Using Multi-View Graph Convolutional Networks.**
+  *Junkai Sun, Junbo Zhang, Qiaofei Li, Xiuwen Yi, Yu Zheng.* Arxiv 2019. [[Paper]](https://arxiv.org/abs/1903.07789)
+  - Summary: different scales of data are input to GCN and global information (e.g., weather and day of the week) are fed to fully-connected neural network, then a module of multi-view fusion based the gating mechanism is designed to combine two kinds of information to generate the final predictions.
+
 - **Revisiting Spatial-Temporal Similarity: A Deep Learning Framework for Traffic Prediction.**
   *Huaxiu Yao, Xianfeng Tang, Hua Wei, Guanjie Zheng, Zhenhui Li.* AAAI 2019. [[Paper]](https://arxiv.org/abs/1803.01254)[[Code]](https://github.com/tangxianfeng/STDN)
   - Summary: two intriguing assumptions are proposed: (1) the spatial dependencies between locations are also evolving w.r.t the time; (2) the temporal dependency is not strictly periodic due to its dynamic temporal shifting, and the gating mechanism and attention mechanism are introduced to solve the aforementioned problems.
@@ -27,6 +31,10 @@ Contributed by [Zhining Liu](https://scholar.google.com/citations?user=Kk0-z5IAA
   - Summary: construct the graph based the similarity between each pair of roads and a fully 3D graph convolution operator is proposed.
 
 [//]: #2018
+- **dyngraph2vec: Capturing Network Dynamics using Dynamic Graph Representation Learning.**
+  *Palash Goyal, Sujit Rokka Chhetri, Arquimedes Canedo.* Arxiv 2018. [[Paper]](https://arxiv.org/abs/1809.02657)[[Code]](https://github.com/palash1992/DynamicGEM)
+  - Summary: under the framework of encoder-and-decoder, use the neighborhood vector set (collect all neighborhood vector of different timestamps) of each node as input and the reconstruction loss as the objective function.
+
 - **Continuous-Time Dynamic Network Embeddings.**
   *Giang Hoang Nguyen, John Boaz Lee, Ryan A. Rossi, Nesreen K. Ahmed, Eunyee Koh, Sungchul Kim.* WWW 2018. [[Paper]](https://dl.acm.org/citation.cfm?id=3184558.3191526)
   - Summary: random walks are generated with the constraint of time order and time closeness (how to select the start is also discussed).
